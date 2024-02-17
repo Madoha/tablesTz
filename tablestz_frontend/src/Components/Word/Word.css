@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.word-container{
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.notificationResult {
+    text-align: center;
+}
+
+.countField{
+    margin-left: 20px;
+}
+
+.fieldTitle {
+    text-align: center;
+    font-size: 12px;
+}
+
+.fieldInput{
+    height: 25px;
+    width: 95px;
+}
+
+.findButton {
+    padding: 7px 20px ;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.saveButton {
+    padding: 7px 4px ;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.change-container{
+    margin: 55px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.findButtonDiv,
+.saveButtonDiv {
+    margin-top: 90px;
+}

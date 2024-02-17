@@ -1,0 +1,8 @@
+# Игнорирование папки node_modules
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
