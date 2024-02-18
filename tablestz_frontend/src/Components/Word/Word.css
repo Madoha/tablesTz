@@ -54,3 +54,33 @@
 .saveButtonDiv {
     margin-top: 90px;
 }
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 45%; /* Adjust as needed */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 61%; /* Adjust as needed */
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .word-container{
+        width: 160px;
+        height: 250px;
+        border: 2px solid black;
+        padding: 7px;
+        box-sizing: border-box;
+    }
+
+    .findButtonDiv,
+    .saveButtonDiv {
+        margin-top: 50px;
+    }
+}
